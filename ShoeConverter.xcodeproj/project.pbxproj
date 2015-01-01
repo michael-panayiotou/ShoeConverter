@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5AF816A1A55773000004845 /* shoeguru-banner-red.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AF81691A55773000004845 /* shoeguru-banner-red.png */; };
+		A5AF816C1A55773E00004845 /* photo.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AF816B1A55773E00004845 /* photo.jpg.png */; };
 		A5F7B3541A542B7F00376708 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7B3531A542B7F00376708 /* AppDelegate.swift */; };
 		A5F7B3561A542B7F00376708 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7B3551A542B7F00376708 /* ViewController.swift */; };
 		A5F7B3591A542B7F00376708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F7B3571A542B7F00376708 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A5AF81691A55773000004845 /* shoeguru-banner-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoeguru-banner-red.png"; sourceTree = "<group>"; };
+		A5AF816B1A55773E00004845 /* photo.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.jpg.png; sourceTree = "<group>"; };
 		A5F7B34E1A542B7F00376708 /* ShoeConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoeConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F7B3521A542B7F00376708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5F7B3531A542B7F00376708 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 		A5F7B3511A542B7F00376708 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A5AF816B1A55773E00004845 /* photo.jpg.png */,
+				A5AF81691A55773000004845 /* shoeguru-banner-red.png */,
 				A5F7B3521A542B7F00376708 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +198,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5AF816C1A55773E00004845 /* photo.jpg.png in Resources */,
 				A5F7B3591A542B7F00376708 /* Main.storyboard in Resources */,
 				A5F7B35E1A542B7F00376708 /* LaunchScreen.xib in Resources */,
 				A5F7B35B1A542B7F00376708 /* Images.xcassets in Resources */,
+				A5AF816A1A55773000004845 /* shoeguru-banner-red.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +415,7 @@
 				A5F7B36F1A542B7F00376708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5F7B3701A542B7F00376708 /* Build configuration list for PBXNativeTarget "ShoeConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				A5F7B3721A542B7F00376708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
